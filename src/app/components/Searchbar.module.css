@@ -1,0 +1,35 @@
+/*--------------------------SearchBar.module.css--------------------------------*/
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    transition: width 0.3s ease;
+    width: 50px;
+    cursor: pointer;
+  }
+
+  .searchBarContainer.expanded {
+    width: 250px;
+
+    .searchInput {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #fff;
+        outline: none;
+        width: 100%;
+        padding: 5px;
+      }
+
+      .searchIcon {
+        cursor: pointer;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
