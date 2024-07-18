@@ -49,7 +49,7 @@ const LandingPage: React.FC = () => {
           <div className="inner-content mt-[190px] px-[70px]">
             <p className="text-white text-xl">JOIN THE ULTIMATE GAMING EXPERIENCE</p>
             <h1 className="text-white text-[60px] font-semibold leading-[60px]">DIVE INTO EPIC<br />ADVENTURES</h1>
-            <div className="flex gap-[40px]">
+            <div className="center-on-554px flex flex-wrap gap-[40px]">
              <button className="explore text-white text-[20px] mt-4" onClick={(event) => handleNavigationClick(event, '/')}>EXPLORE</button>
              <div className="flex items-center gap-[15px] mt-4">
                <div className="play-button">
@@ -59,7 +59,7 @@ const LandingPage: React.FC = () => {
              </div>
             </div>
             <div className="line"></div>
-            <div className="flex justify-between mt-[50px]">
+            <div className="center-on-554px flex flex-wrap justify-between mt-[50px]">
             <div className="landingPage-socials flex gap-[20px]">
              <Image src={instagramImage} 
                className="cursor-pointer" 

@@ -352,6 +352,13 @@ body {
 }
 }
 
+@media screen and (max-width: 554px) {
+  .center-on-554px {
+    justify-content: center;
+  }
+}
+
+
 @media screen and (max-width:425px) {
   main {
     padding: 0 !important;
